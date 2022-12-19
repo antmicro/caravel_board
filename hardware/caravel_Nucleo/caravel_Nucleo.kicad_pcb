@@ -285,7 +285,7 @@
   (net 195 "unconnected-(U12-Pad15)")
   (net 196 "Net-(R33-Pad2)")
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 04a66f4a-8cb3-4465-adac-26a3176269d1)
     (at 141.1732 44.196 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -320,14 +320,14 @@
       (net 14 "Net-(D2-Pad2)") (pintype "passive") (tstamp 8fd6f463-868c-42aa-a0e6-d3697ccfe041))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 13 "FTDI_V3.3") (pintype "passive") (tstamp 96a47c0a-04c3-4c78-a44d-f98e1cdea1fb))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0c45162f-f2d9-44ce-b200-841c441df4a1)
     (at 131.2164 44.0436 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -362,14 +362,14 @@
       (net 67 "EN_VOUT1") (pintype "passive") (tstamp 5411755d-7fbe-4a61-978c-53def119d3da))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 184 "NU_5V") (pintype "passive") (tstamp 04192461-dd44-43a3-b629-3450b2a11a1b))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "strive_foot_prints:SOT65P210X110-5N" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:SOT65P210X110-5N" (layer "F.Cu")
     (tedit 5E734429) (tstamp 0ce6d62c-376b-4a21-90c9-2becde6e53de)
     (at 151.13 25.2476 180)
     (property "Field4" "76C4082")
@@ -433,7 +433,7 @@
       (net 10 "vdda") (pinfunction "VCC") (pintype "power_in") (tstamp fa8a2ec2-04f7-4446-bc7d-3709f70266c2))
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0db180d8-6a1a-4184-8029-3b106537584a)
     (at 137.9728 41.5544)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -468,14 +468,14 @@
       (net 1 "GND") (pintype "passive") (tstamp e008bb83-18d4-4219-9398-578277feb2e1))
     (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 13 "FTDI_V3.3") (pintype "passive") (tstamp 8a1403f1-5fbb-4d21-90fc-5e689d76d04e))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "LED_SMD:LED_1206_3216Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:LED_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 0de18431-3d53-40a8-bd0b-bb4aa8154d59)
     (at 124.8664 99.9744)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -512,14 +512,14 @@
       (net 1 "GND") (pinfunction "K") (pintype "passive") (tstamp d04dd445-f549-42b3-8801-0015ab2e40f3))
     (pad "2" smd roundrect (at 1.4 0) (size 1.25 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 17 "Net-(D4-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 60bb9e01-921e-4f11-b6c9-1a98e121106e))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/LED_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 10e5dad4-8b42-48de-98f9-d78d6be7975b)
     (at 126.746 44.0436 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -554,14 +554,14 @@
       (net 35 "Net-(C19-Pad1)") (pintype "passive") (tstamp 71607bc2-527c-4c49-8a4f-08955da205f0))
     (pad "2" smd roundrect (at 0.95 0 90) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp 64190e9c-235b-4ff7-a265-d6d0adc2dd97))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 13091217-faea-45a8-9e61-7463fc0e9850)
     (at 121.2596 45.5676 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -596,14 +596,14 @@
       (net 49 "Net-(R19-Pad1)") (pintype "passive") (tstamp f86fdaf8-82a2-413d-95c1-a0ed6cb8c63f))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 12 "VOUT1") (pintype "passive") (tstamp 3b113f0f-019e-4725-8292-d1ddad49d33f))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 1480ced5-54da-4b72-a16a-11b41c3f0319)
     (at 153.162 76.6572)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -638,14 +638,14 @@
       (net 26 "Caravel_D0") (pintype "passive") (tstamp 7303de3c-5704-4626-b046-34a35f015b97))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 70 "SPI4_MOSI") (pintype "passive") (tstamp 1e4c7dd1-9308-4df3-ab76-496a176e3e56))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 16e09b66-bf24-449f-aeb7-49fac2412fd1)
     (at 156.9466 39.9288 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -680,14 +680,14 @@
       (net 1 "GND") (pintype "passive") (tstamp ddb6431e-7519-48ca-b3d9-3d6464bbe6b8))
     (pad "2" smd roundrect (at 0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 7 "Net-(C3-Pad2)") (pintype "passive") (tstamp aab878c4-d9df-4519-8b1a-339a737330ae))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 177b3b2e-019b-4574-a96e-798075e5448f)
     (at 141.1732 47.8536 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -722,14 +722,14 @@
       (net 9 "Net-(D1-Pad2)") (pintype "passive") (tstamp fce9b587-64de-48d3-9d67-9d7c27eef2ad))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 13 "FTDI_V3.3") (pintype "passive") (tstamp 5765b743-d45a-4a6a-92d0-f6a424b8c0d3))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 180cd3dc-4bf7-405c-999c-13aaf9318e2c)
     (at 122.9868 55.0164)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -764,14 +764,14 @@
       (net 52 "Net-(R23-Pad1)") (pintype "passive") (tstamp 1f1b4038-8349-4ffe-8e89-9eab6f2d20ca))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 51 "Net-(R22-Pad1)") (pintype "passive") (tstamp 164344ea-61fc-4db6-bcf6-044dfc892583))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 1b941f31-8c38-404e-9e7f-7b8e7d5ba3b5)
     (at 143.1544 98.9584 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -806,14 +806,14 @@
       (net 32 "~{MEM_HOLD}") (pintype "passive") (tstamp 56076d47-8170-40a5-9be0-ba6816085d33))
     (pad "2" smd roundrect (at 0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 10 "vdda") (pintype "passive") (tstamp 0aada232-fc3a-46e0-8e5a-14fa9b2f27a0))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 1c9e574c-ba06-4bfe-bc15-3da05692331b)
     (at 137.9728 39.5224)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -848,14 +848,14 @@
       (net 1 "GND") (pintype "passive") (tstamp 41a02023-50a4-425e-8cfe-ebbdb9de0bf6))
     (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 13 "FTDI_V3.3") (pintype "passive") (tstamp d252c615-a51a-4c7b-9cfb-389c17650a0e))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 1e8f7bbd-5bb3-4fe5-afc3-a7e4de688dc6)
     (at 150.6982 47.8536)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -890,14 +890,14 @@
       (net 5 "Net-(C1-Pad2)") (pintype "passive") (tstamp 2a546b66-efbe-46f3-be12-4742125dcba5))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 13 "FTDI_V3.3") (pintype "passive") (tstamp ac596660-ebaf-4486-ad07-453eb1188429))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 1ebff123-4a68-45ef-997b-6e347cbe7689)
     (at 115.0112 59.7897 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -932,14 +932,14 @@
       (net 1 "GND") (pintype "passive") (tstamp 69684ed5-d2c2-40df-bd5c-e3fc30700a0c))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 196 "Net-(R33-Pad2)") (pintype "passive") (tstamp b5fbb8b7-5d15-4d3a-b3eb-03c14717daa4))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 22abdacf-b53d-4531-95fe-57aacbeed8c3)
     (at 129.1844 99.9744 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -974,14 +974,14 @@
       (net 10 "vdda") (pintype "passive") (tstamp 78680d07-d84e-49ec-a60e-2c9b917965a7))
     (pad "2" smd roundrect (at 0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 17 "Net-(D4-Pad2)") (pintype "passive") (tstamp 94d8d26e-7282-4685-9e91-47648fda7c8e))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 23ed60aa-2a0f-4687-b818-fae3781257eb)
     (at 143.1544 96.9264 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1016,14 +1016,14 @@
       (net 24 "Caravel_SCK") (pintype "passive") (tstamp 9c8f231f-f702-4531-bf13-33b51fb33b67))
     (pad "2" smd roundrect (at 0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 10 "vdda") (pintype "passive") (tstamp 8e0b17e2-48bf-436c-8fbe-cdfd50e0b13e))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "strive_foot_prints:SOT65P210X110-5N" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:SOT65P210X110-5N" (layer "F.Cu")
     (tedit 5E734429) (tstamp 25a5335e-d154-4bf3-97fc-cc700586a8e5)
     (at 151.13 22.6568)
     (property "Field4" "76C4082")
@@ -1087,7 +1087,7 @@
       (net 10 "vdda") (pinfunction "VCC") (pintype "power_in") (tstamp e1221c68-d949-4f15-9866-f03e709ce615))
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 2e6ed07c-9d01-4733-b6fe-5f2f7d7e13a8)
     (at 137.9728 43.688)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -1122,14 +1122,14 @@
       (net 1 "GND") (pintype "passive") (tstamp 9843e36c-5be8-4b83-b1dc-635bf7d85225))
     (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "+5V") (pintype "passive") (tstamp afbb8ce5-6797-421e-a4c9-43d6c0ec2a24))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 2f8d71f9-2af8-4fea-bedb-33699aee840c)
     (at 158.0388 96.9264)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1164,14 +1164,14 @@
       (net 25 "Caravel_D1") (pintype "passive") (tstamp c1312e6c-f0e7-40eb-b4f3-b062c51ec74e))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 10 "vdda") (pintype "passive") (tstamp 2c48974d-e488-45b9-a006-30360eabc9de))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Caravel_Board:caravel_breakout_flexy_rev3D" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:caravel_breakout_flexy_rev3D" (layer "F.Cu")
     (tedit 0) (tstamp 38711bf4-46bc-4de0-802c-346c5cb8689c)
     (at 131.826 76.8604 90)
     (property "Sheetfile" "caravel_Nucleo.kicad_sch")
@@ -1432,7 +1432,7 @@
       (net 61 "vccd2") (pinfunction "vccd2") (pintype "power_in") (tstamp dbd18fd1-adb5-4edb-a476-7e3dc1fb14bc))
     (pad "56" thru_hole oval (at 8.255 13.04 180) (size 2 0.95) (drill oval 1.7 0.65) (layers *.Cu *.Mask)
       (net 61 "vccd2") (pinfunction "vccd2") (pintype "power_in") (tstamp f3245e88-2534-4459-9daf-a04869c24f96))
-    (zone (net 0) (net_name "") (layers *.Cu *.Adhes *.Paste *.SilkS *.Mask) (tstamp 55c70d50-34c6-41fc-b31e-5fb1096adb03) (name "Breakout board pop area") (hatch full 0.508)
+    (zone (net 0) (net_name "") (layers "*.Cu" "*.Adhes" "*.Paste" "*.SilkS" "*.Mask") (tstamp 55c70d50-34c6-41fc-b31e-5fb1096adb03) (name "Breakout board pop area") (hatch full 0.508)
       (connect_pads (clearance 0))
       (min_thickness 0.254)
       (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
@@ -1448,7 +1448,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3b01dad7-e683-4472-9133-1f967f4201a0)
     (at 143.1544 94.8944 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1483,14 +1483,14 @@
       (net 26 "Caravel_D0") (pintype "passive") (tstamp d22ab405-1968-4044-a2d6-d06a348a0937))
     (pad "2" smd roundrect (at 0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 10 "vdda") (pintype "passive") (tstamp 0202d30e-68b4-41f4-9f17-34da46151c93))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3c59aa9c-c8be-471f-9799-8022b602e972)
     (at 158.496 24.4348 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1525,14 +1525,14 @@
       (net 10 "vdda") (pintype "passive") (tstamp c7828ccd-74f2-491b-91d3-8d45bf3a13e5))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 185 "~{UART_EN}") (pintype "passive") (tstamp 99aa1f52-2c48-462d-adfc-2d0de4194b0c))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3dd32b99-0409-4e6d-afdd-e841c838935f)
     (at 138.938 98.9584 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -1567,14 +1567,14 @@
       (net 10 "vdda") (pintype "passive") (tstamp e2e41f09-348d-41a4-b583-eec0e03fa41d))
     (pad "2" smd roundrect (at 0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp 66e1b302-da79-412c-a797-f33df613b1a0))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3f897a87-eb5e-43ef-b0d3-bdde66106156)
     (at 137.9728 33.0708)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -1609,14 +1609,14 @@
       (net 1 "GND") (pintype "passive") (tstamp 1bb17a5a-36fa-49ea-aad2-5975ea449747))
     (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 13 "FTDI_V3.3") (pintype "passive") (tstamp 7f0cec9f-148a-4a8a-b89b-e5323f28d809))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 438a545c-32f9-4b42-a525-0c763cf525d2)
     (at 151.1808 53.4924 -90)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
@@ -1656,14 +1656,14 @@
       (net 46 "Net-(J6-Pad1)") (pinfunction "Pin_1") (pintype "passive") (tstamp ac31c1c2-bc0a-4242-9553-d4f1e7700347))
     (pad "2" thru_hole oval (at 0 2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 94be081a-f04b-4fb1-b71b-3ed9eff82d5c))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/PinHeader_1x02_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 46758499-3497-4cb0-9b70-84f9cb2846e7)
     (at 119.0752 45.5676 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1698,14 +1698,14 @@
       (net 1 "GND") (pintype "passive") (tstamp 5650d79d-dde3-4dc2-a890-a31e6009b259))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 49 "Net-(R19-Pad1)") (pintype "passive") (tstamp cb4876a8-3cf6-4086-aef0-9c93e6d78f39))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 46d23bc1-dda0-4a29-a38c-f25d5dac2407)
     (at 124.1044 30.6832 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -1740,14 +1740,14 @@
       (net 43 "Net-(C11-Pad1)") (pintype "passive") (tstamp fd9547cd-cfb3-4e2c-a310-fb71612f96d8))
     (pad "2" smd roundrect (at 0.95 0 90) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp 4bec4d96-f908-43d5-9306-56e71d1edf70))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 4b837c32-aa19-487c-9aba-d863e89017e7)
     (at 159.2072 105.4608 -90)
     (descr "wire loop as test point, pitch 2.54mm, hole diameter 1.0mm, wire diameter 0.8mm")
@@ -1781,14 +1781,14 @@
       (net 1 "GND") (pinfunction "1") (pintype "passive") (tstamp a5bdc2f8-ea66-4515-843e-6ac98968492a))
     (pad "1" thru_hole circle (at 0 0 270) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "1") (pintype "passive") (tstamp b130e61e-1cee-45a9-a251-71704554529f))
-    (model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.54mm_Drill1.0mm.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/TestPoint_Bridge_Pitch2.54mm_Drill1.0mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4c0dc95a-4113-439d-99ea-ceaab7dfcfa6)
     (at 156.9212 37.6936 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -1823,14 +1823,14 @@
       (net 1 "GND") (pintype "passive") (tstamp f6fa8302-0614-43ec-a712-5d3390042ac5))
     (pad "2" smd roundrect (at 0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 6 "Net-(C2-Pad2)") (pintype "passive") (tstamp b79d6c4c-2494-4a08-82f7-3fc033af380b))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4c8b78f4-262b-49e2-a183-396dd543c720)
     (at 137.9728 45.7708)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1865,14 +1865,14 @@
       (net 157 "Net-(R28-Pad1)") (pintype "passive") (tstamp 0ac99d23-1358-4b43-8418-afcac447f108))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 4 "+5V") (pintype "passive") (tstamp 4c59b211-f92a-4cee-9b38-6482e43448f5))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4d3dbd54-3754-4011-b8d0-95bb15caf3b0)
     (at 159.6644 76.6572)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -1907,14 +1907,14 @@
       (net 25 "Caravel_D1") (pintype "passive") (tstamp 5b2147cf-8e1e-410b-b5c4-1d051fe9395f))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 100 "SPI4_MISO") (pintype "passive") (tstamp e8cdf5ba-e094-4c6a-9dda-f30914cf42f4))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:PinHeader_1x11_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 4e1ed391-b0d7-483e-8b30-3e66684a3376)
     (at 108.3056 107.5944 90)
     (descr "Through hole straight pin header, 1x11, 2.54mm pitch, single row")
@@ -1972,14 +1972,14 @@
       (net 28 "gpio") (pinfunction "Pin_10") (pintype "passive") (tstamp 25e3c657-1fd6-461c-a8bf-8eb6241fed21))
     (pad "11" thru_hole oval (at 0 25.4 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 181 "xclk") (pinfunction "Pin_11") (pintype "passive") (tstamp 3dce36aa-9ff7-4f1d-8036-f474e1847352))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x11_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/PinHeader_1x11_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "LED_SMD:LED_1206_3216Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:LED_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 53770838-d67b-42c9-bbfa-fe2f4fee2a73)
     (at 143.8402 46.8376 -90)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -2016,14 +2016,14 @@
       (net 29 "Net-(D2-Pad1)") (pinfunction "K") (pintype "passive") (tstamp e8d1a792-5fb9-4584-ba0e-c72ca7d0badc))
     (pad "2" smd roundrect (at 1.4 0 270) (size 1.25 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 14 "Net-(D2-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 4ed14ae5-e95d-42a4-8ba8-3bfabeea5b4d))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/LED_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "strive_foot_prints:DSC6001JE1A-010.0000" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:DSC6001JE1A-010.0000" (layer "F.Cu")
     (tedit 602B1768) (tstamp 544e48a5-b5a8-49f9-bd63-f4bdb9270a3b)
     (at 155.82265 53.4924)
     (property "Sheetfile" "caravel_Nucleo.kicad_sch")
@@ -2097,7 +2097,7 @@
       (net 10 "vdda") (pinfunction "V+") (pintype "power_in") (tstamp 44431d66-d17f-4750-afca-1f1cd8759c23))
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 59d164d9-d3ee-43c6-aff7-647c94424ca7)
     (at 126.6952 55.0164 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -2132,14 +2132,14 @@
       (net 1 "GND") (pintype "passive") (tstamp c18215a5-3a09-46cb-b1ad-8347778b6dad))
     (pad "2" smd roundrect (at 0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 51 "Net-(R22-Pad1)") (pintype "passive") (tstamp 94e70877-b3c9-42e1-bb2d-7631d05e0a1e))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 5b0d2737-4f75-4129-9752-985c2fbda0a5)
     (at 122.1994 59.3852 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -2174,14 +2174,14 @@
       (net 184 "NU_5V") (pintype "passive") (tstamp c4dc01ad-cc6d-4f0e-886a-6114bcc3fc61))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 69 "I2C4_SDA") (pintype "passive") (tstamp c60046fd-22fa-4925-aced-666e81a4cbb8))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 5b474973-5874-43ea-b45e-65a89bd57b9f)
     (at 156.1338 79.4004 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -2216,14 +2216,14 @@
       (net 10 "vdda") (pintype "passive") (tstamp b22fb82f-44f0-4fb2-9d56-e81fafdcfe42))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 16 "Net-(D3-Pad2)") (pintype "passive") (tstamp a88430cd-af4e-48ed-ada3-7ce748360d49))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Package_DFN_QFN:QFN-48-1EP_8x8mm_P0.5mm_EP6.2x6.2mm" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:QFN-48-1EP_8x8mm_P0.5mm_EP6.2x6.2mm" (layer "F.Cu")
     (tedit 5DC5F6A5) (tstamp 61fd165b-65e8-4dd2-8529-13e1bb160950)
     (at 147.9042 39.0906 -90)
     (descr "QFN, 48 Pin (https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232H.pdf#page=49), generated with kicad-footprint-generator ipc_noLead_generator.py")
@@ -2382,14 +2382,14 @@
     (pad "48" smd roundrect (at -2.75 -3.875 270) (size 0.25 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp e07c9671-9dda-45b9-a647-b907b572a9f4))
     (pad "49" smd rect (at 0 0 270) (size 6.2 6.2) (layers "F.Cu" "F.Mask") (tstamp 830b258d-0c8c-4d9b-9255-18f3390203cd))
-    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_8x8mm_P0.5mm_EP6.2x6.2mm.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/QFN-48-1EP_8x8mm_P0.5mm_EP6.2x6.2mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 64650b81-040b-4637-8912-b9bf2ac9a8b1)
     (at 116.8042 19.4056 90)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
@@ -2431,14 +2431,14 @@
       (net 174 "vccd") (pinfunction "Pin_2") (pintype "passive") (tstamp 6986a646-6a3c-48bc-a120-e7dc9df72aed))
     (pad "3" thru_hole oval (at 0 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 12 "VOUT1") (pinfunction "Pin_3") (pintype "passive") (tstamp 4cda0bfe-5347-4739-8bfc-84288a65384c))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/PinHeader_1x03_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 648d4434-ad4b-4ed8-81f7-22323d841afc)
     (at 153.8732 65.7302)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
@@ -2478,14 +2478,14 @@
       (net 181 "xclk") (pinfunction "Pin_1") (pintype "passive") (tstamp 3306fff1-e951-40c7-b20b-812a6cba530d))
     (pad "2" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 22 "TIM3_CH2") (pinfunction "Pin_2") (pintype "passive") (tstamp ec09d530-ded1-44cd-a2eb-dd7d37acb417))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/PinHeader_1x02_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 658805ed-a8a2-4143-b9aa-6a3e40fc21a0)
     (at 125.1204 52.324 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -2520,14 +2520,14 @@
       (net 51 "Net-(R22-Pad1)") (pintype "passive") (tstamp af10db9b-3265-4656-ab57-b6e350ab3ffb))
     (pad "2" smd roundrect (at 0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 15 "VOUT2") (pintype "passive") (tstamp d84f68b3-296d-4241-88c2-3f3ac2cff4f1))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 661b4dbd-e46b-48d5-8ab6-0692603f78be)
     (at 119.0752 49.3776 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -2562,14 +2562,14 @@
       (net 50 "Net-(R21-Pad1)") (pintype "passive") (tstamp ae21eeba-1e1f-4e4d-8b5f-944152e199de))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 49 "Net-(R19-Pad1)") (pintype "passive") (tstamp dc4ad8ed-8510-49c9-91cf-8440a1bdf3f4))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 66b3b8d3-d14e-4dd5-b065-5d21f36533f3)
     (at 147.5994 29.6672 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -2604,14 +2604,14 @@
       (net 1 "GND") (pintype "passive") (tstamp 5cf73f8b-ecb7-44a7-ab15-37d5a838cb97))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 27 "Net-(R2-Pad2)") (pintype "passive") (tstamp bba279d4-2766-47d0-a9c8-401c341d59f2))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 680c4025-5f82-4949-b30e-8b62f393a22a)
     (at 131.4704 29.464)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
@@ -2651,14 +2651,14 @@
       (net 4 "+5V") (pinfunction "Pin_1") (pintype "passive") (tstamp 694c39cb-f530-4bce-8419-fef78ea1e9e1))
     (pad "2" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 184 "NU_5V") (pinfunction "Pin_2") (pintype "passive") (tstamp 352e8c81-35f8-45dc-82d7-789c2abd20c6))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/PinHeader_1x02_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 6908ace3-cf3d-4f2c-ac4f-5ad3198ba94a)
     (at 156.7688 47.0916 -90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -2693,14 +2693,14 @@
       (net 1 "GND") (pintype "passive") (tstamp 5561e501-5d93-442d-a251-8d6f8785c1f7))
     (pad "2" smd roundrect (at 0.95 0 270) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 10 "vdda") (pintype "passive") (tstamp 556c0a2a-8064-4e0b-adda-6a8ad0fbecb1))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 6b4ccb40-77da-434b-82d4-fb7c30a88499)
     (at 158.5926 19.431 -90)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
@@ -2740,14 +2740,14 @@
       (net 1 "GND") (pinfunction "Pin_1") (pintype "passive") (tstamp f56e49cc-dba3-4572-845b-fd21918d8d66))
     (pad "2" thru_hole oval (at 0 2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 185 "~{UART_EN}") (pinfunction "Pin_2") (pintype "passive") (tstamp 8aa61a6d-f520-4236-a3ea-cdbf02b0a579))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/PinHeader_1x02_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7221d574-af8b-43bc-b205-634026b823f8)
     (at 135.128 51.7652 -90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -2782,14 +2782,14 @@
       (net 11 "Net-(C23-Pad1)") (pintype "passive") (tstamp e629d295-ee4d-484e-bd95-0d43f76ab7d3))
     (pad "2" smd roundrect (at 0.95 0 270) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp d2cb01eb-d273-46d3-b209-f9aa093367d9))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Caravel_Board:logo" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:logo" (layer "F.Cu")
     (tedit 0) (tstamp 7240c57b-2940-44d5-ac81-a7710e2607c0)
     (at 113.6396 96.0628)
     (property "Sheetfile" "caravel_Nucleo.kicad_sch")
@@ -4291,7 +4291,7 @@
       ) (layer "F.SilkS") (width 0.01) (fill solid) (tstamp f4b79757-0a45-42e4-ab71-5cdcdb041a68))
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 74971d9d-7dbf-4479-8ba7-d143dd7c9079)
     (at 137.9728 35.4584)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -4326,14 +4326,14 @@
       (net 1 "GND") (pintype "passive") (tstamp a142e714-be22-4250-bf36-f8d460417308))
     (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 13 "FTDI_V3.3") (pintype "passive") (tstamp 630f0065-e962-4585-b6ea-9c49e3bf691b))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 77e70a3c-71d7-47ed-ba71-500f8e177d66)
     (at 131.572 52.578 -90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -4368,14 +4368,14 @@
       (net 12 "VOUT1") (pintype "passive") (tstamp 48e54ced-72b5-437d-b7d3-8f784ce09563))
     (pad "2" smd roundrect (at 0.95 0 270) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp 110106ad-0b30-41b9-b1ae-6961794e3f51))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:PinHeader_1x06_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 7bff12f9-2b88-4f06-9b6c-381d0a60ed2c)
     (at 153.8224 107.6452 -90)
     (descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
@@ -4423,14 +4423,14 @@
       (net 24 "Caravel_SCK") (pinfunction "Pin_5") (pintype "passive") (tstamp 4862ab77-2a73-44e4-a62b-d13e5f5d629c))
     (pad "6" thru_hole oval (at 0 12.7 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 32 "~{MEM_HOLD}") (pinfunction "Pin_6") (pintype "passive") (tstamp 5f4c1423-2510-4060-9a84-7d39ffa3d2dc))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/PinHeader_1x06_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "strive_foot_prints:SW4-SMD-5.2X5.2X1.5MM" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:SW4-SMD-5.2X5.2X1.5MM" (layer "F.Cu")
     (tedit 602B16E0) (tstamp 7ecb69aa-c83a-4466-aee0-dbf00e33a232)
     (at 110.6424 20.9804)
     (property "Sheetfile" "caravel_Nucleo.kicad_sch")
@@ -4473,7 +4473,7 @@
       (net 1 "GND") (pinfunction "2") (pintype "passive") (tstamp a9df3c60-0329-4d27-be8c-52fdb3a4c5cd))
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 80fa3965-3df4-4132-82bc-1257ecd3e2ab)
     (at 158.0388 99.0092)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -4508,14 +4508,14 @@
       (net 23 "Caravel_CSB") (pintype "passive") (tstamp b6fa8242-666e-4408-94e4-4842faa18332))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 10 "vdda") (pintype "passive") (tstamp c3ce286a-0c0b-4158-b0c3-d978f35f9355))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 83413494-067e-4e17-9f68-a6d2b46337b3)
     (at 129.4892 52.578 -90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -4550,14 +4550,14 @@
       (net 15 "VOUT2") (pintype "passive") (tstamp 69c75ad1-6708-42c8-825c-5fb1fe64c134))
     (pad "2" smd roundrect (at 0.95 0 270) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp d08392e5-897c-4441-a6e3-173e04fba01a))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 86104403-66b9-48ff-9c0d-c26fa59c692f)
     (at 156.3878 24.4348 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -4592,14 +4592,14 @@
       (net 10 "vdda") (pintype "passive") (tstamp 8579316b-347e-4c5c-9a46-f425dafe552e))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 185 "~{UART_EN}") (pintype "passive") (tstamp 31bc67d0-fd4f-48ff-b35c-e6d1c0b2d5d1))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 89e0dfec-fb97-40d1-af19-df2dbbddb5bf)
     (at 126.6444 23.2664 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -4634,14 +4634,14 @@
       (net 48 "EN_V1.8") (pintype "passive") (tstamp e01cb28c-63d0-4fb9-b8ae-0fa1825a7826))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 4 "+5V") (pintype "passive") (tstamp 24f8ac44-bbc1-43b1-a8e4-a9cac647343f))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "strive_foot_prints:SOIC127P790X216-8N" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:SOIC127P790X216-8N" (layer "F.Cu")
     (tedit 0) (tstamp 89ef3363-ecbe-421f-9939-f7e394a4d621)
     (at 150.5712 96.9772 180)
     (descr "8-Pin SOIC 208-mil (Package Code SS)")
@@ -4692,14 +4692,14 @@
       (net 32 "~{MEM_HOLD}") (pinfunction "~{HOLD}(D3)") (pintype "bidirectional") (tstamp db671d47-b5d4-424d-9eef-114bce220503))
     (pad "8" smd rect locked (at 3.6 -1.905 270) (size 0.65 1.65) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 10 "vdda") (pinfunction "VCC") (pintype "power_in") (tstamp 94ac975c-02f2-414d-9660-a96544651068))
-    (model "W25Q64FVSSIG.stp"
+    (model "${KIPRJMOD}/lib/3d-models/W25Q64FVSSIG.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "strive_foot_prints:FCI_10118193-0001LF" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:FCI_10118193-0001LF" (layer "F.Cu")
     (tedit 602531CC) (tstamp 8ea72f5f-519f-44c5-88b8-ce8cf3914d4d)
     (at 132.1816 18.9665 180)
     (property "Sheetfile" "caravel_Nucleo.kicad_sch")
@@ -4765,7 +4765,7 @@
     (pad "S6" thru_hole oval locked (at 3.3 0 180) (size 0.9 1.8) (drill oval 0.5 1.2) (layers *.Cu *.Mask) (tstamp a0de9102-7545-4ffb-b902-7984a25e7daa))
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 8f3369b1-d14e-4ff1-b22f-43a7f15a7983)
     (at 115.3668 30.5816 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -4800,14 +4800,14 @@
       (net 1 "GND") (pintype "passive") (tstamp deff87ba-2337-4a2a-abcf-d263a26ef337))
     (pad "2" smd roundrect (at 0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 10 "vdda") (pintype "passive") (tstamp f5028c15-bf6c-4417-a793-1eb3ad08cbe6))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 90900749-cf68-48df-982d-793a2097a52e)
     (at 126.3396 38.4556 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -4842,14 +4842,14 @@
       (net 1 "GND") (pintype "passive") (tstamp ff5e4b41-663f-4092-bb31-2f96ba2d6359))
     (pad "2" smd roundrect (at 0.95 0 90) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "+5V") (pintype "passive") (tstamp 0805a72e-c7cc-497b-af59-a133981bb030))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Caravel_Board:SOT-353F" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:SOT-353F" (layer "F.Cu")
     (tedit 5A02FF57) (tstamp 9745c795-cb56-4636-ab51-f0716abd6c9a)
     (at 138.0236 48.3616)
     (descr "SOT-353, SC-70-5")
@@ -4891,14 +4891,14 @@
       (net 13 "FTDI_V3.3") (pinfunction "VOUT") (pintype "power_out") (tstamp cf17eaaa-becc-46e6-96fc-d0f152ae9e8d))
     (pad "5" smd rect (at 0.95 -0.65) (size 0.8 0.45) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+5V") (pinfunction "VIN") (pintype "power_in") (tstamp 4cb44b07-3dce-4cd5-81ac-3520a2331cd1))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-353F.STEP"
+    (model "${KIPRJMOD}/lib/3d-models/SOT-353F.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (footprint "LED_SMD:LED_1206_3216Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:LED_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 9b421399-3817-4d4d-a86d-c25f6c0969d4)
     (at 146.3802 46.8376 -90)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -4935,14 +4935,14 @@
       (net 8 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp b7ec1f2a-a4f2-4c65-933c-f3cd612f18b5))
     (pad "2" smd roundrect (at 1.4 0 270) (size 1.25 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 9 "Net-(D1-Pad2)") (pinfunction "A") (pintype "passive") (tstamp dc09de8c-4579-4329-bcd0-c36ff18389c2))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/LED_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9cc6f8e9-8508-40eb-a894-dde66e13bb06)
     (at 129.032 44.0436 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -4977,14 +4977,14 @@
       (net 57 "EN_VOUT2") (pintype "passive") (tstamp 3c0b7f6c-8342-4383-ac20-4200e68fbfe8))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 184 "NU_5V") (pintype "passive") (tstamp 9145b2ae-8888-463b-8a42-1f2dfe8e35e5))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp a0304923-c783-4582-839e-79ece3909e14)
     (at 140.3604 19.4564 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
@@ -5028,14 +5028,14 @@
       (net 178 "UART8_RX") (pinfunction "Pin_3") (pintype "passive") (tstamp 86f70184-1746-4951-86d2-cf2e003c7bbd))
     (pad "4" thru_hole oval (at 0 7.62 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 10 "vdda") (pinfunction "Pin_4") (pintype "passive") (tstamp a4bc42f8-a6ce-4c97-be71-2cd51d377247))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/PinHeader_1x04_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Caravel_Board:ST_Morpho_Connectors_144" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:ST_Morpho_Connectors_144" (layer "F.Cu")
     (tedit 5E1A477A) (tstamp a48bd560-b0cc-4465-aed2-d63c28b8cc73)
     (at 134.1628 54.0004)
     (descr "ST Morpho and Zio Connectors 144 With STLink")
@@ -5348,14 +5348,14 @@
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp a2ea18e9-c6ec-47e9-b200-5777890a65c4))
     (pad "144" thru_hole circle (at 31.705 54.095) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 13764e4d-8de7-4334-8463-acb6d54b9b33))
-    (model "${KISYS3DMOD}/Module.3dshapes/ST_Morpho_and_Zio_Connectors_144_STLink.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/ST_Morpho_and_Zio_Connectors_144_STLink.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "LED_SMD:LED_1206_3216Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:LED_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp a728a636-4d8f-40d7-a101-2ae618a6f587)
     (at 152.4508 79.9592)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -5392,14 +5392,14 @@
       (net 28 "gpio") (pinfunction "K") (pintype "passive") (tstamp 4af5fc59-8440-4b65-9788-e284510b58b0))
     (pad "2" smd roundrect (at 1.4 0) (size 1.25 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 16 "Net-(D3-Pad2)") (pinfunction "A") (pintype "passive") (tstamp c98b2c9c-306d-4d50-849b-98f76badb038))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/LED_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ad1ab427-5f21-48c3-bda4-37f71f05b278)
     (at 121.158 34.5948 -90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -5434,14 +5434,14 @@
       (net 1 "GND") (pintype "passive") (tstamp a1c53a3e-da26-4a16-866c-75feb509a668))
     (pad "2" smd roundrect (at 0.95 0 270) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "V3.3") (pintype "passive") (tstamp ac81f1ce-722b-467c-b1bf-29f631755bff))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ad60b30c-4e06-41f9-9abc-e2ec50b98073)
     (at 128.4224 38.4556 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -5476,14 +5476,14 @@
       (net 1 "GND") (pintype "passive") (tstamp 1d4328ca-94a6-4ad0-9993-91dd7139f842))
     (pad "2" smd roundrect (at 0.95 0 90) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 184 "NU_5V") (pintype "passive") (tstamp 8987ea60-6e4b-4af4-8526-432468732e4f))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp afd00bd2-b54e-49fe-95bb-9c96e9091c34)
     (at 138.0236 51.0032)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -5518,14 +5518,14 @@
       (net 1 "GND") (pintype "passive") (tstamp bcc475aa-e06b-477b-88ad-ecb10314e8be))
     (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 13 "FTDI_V3.3") (pintype "passive") (tstamp d608c13a-abe2-4fcb-a3c5-ca354019740e))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp bb1f5506-8f52-4311-ad8a-5aba9269ddc1)
     (at 116.9924 49.3776 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -5560,14 +5560,14 @@
       (net 183 "Net-(R27-Pad1)") (pintype "passive") (tstamp 28ddc0d1-8fbe-4066-942a-f95d0b55b1c5))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 184 "NU_5V") (pintype "passive") (tstamp 80a98cd4-5207-4329-8659-09f264de7eaa))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp be5ee025-a35b-4c77-8b43-c791fde2b966)
     (at 158.0388 94.7928)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -5602,14 +5602,14 @@
       (net 18 "~{MEM_WP}") (pintype "passive") (tstamp d0603c6a-775a-4e54-9fb3-0ef4af0c568c))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 10 "vdda") (pintype "passive") (tstamp 182563d4-937f-416e-b6f0-18ae6025bfe6))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Caravel_Board:PoR_5_SOT23" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:PoR_5_SOT23" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp c0516189-10ea-415d-a823-6e51a8c9735f)
     (at 115.7224 27.4828 180)
     (descr "5-Lead Plastic Small Outline Transistor (OT) [SOT23] for MCP131X/2X (https://ww1.microchip.com/downloads/en/DeviceDoc/MCP131X-2X-Voltage-Supervisor-DS20001985E.pdf)")
@@ -5656,14 +5656,14 @@
       (net 33 "~{MR}") (pinfunction "~{MR}") (pintype "input") (tstamp 4e313c06-b430-4295-8889-64e75be57372))
     (pad "5" smd roundrect (at 1.425 -0.95 180) (size 1.1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 10 "vdda") (pinfunction "VDD") (pintype "power_in") (tstamp 4158722e-ed2a-45a1-9916-d9b22d863c8a))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/SOT-23-5.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c0f573af-d08a-4fde-bc77-1727bf07744e)
     (at 124.46 23.2664 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -5698,14 +5698,14 @@
       (net 31 "Net-(C14-Pad1)") (pintype "passive") (tstamp 127d6e80-0218-4d0b-a4ca-e4066405a143))
     (pad "2" smd roundrect (at 0.95 0 90) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp 9f679ffb-0730-4722-b82d-e688e4919e8e))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c1266321-8c1f-42c5-b63f-59b3087fd69b)
     (at 153.162 74.5744)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -5740,14 +5740,14 @@
       (net 23 "Caravel_CSB") (pintype "passive") (tstamp 4adc535d-8096-4e98-81cc-3ed77ce3088c))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 104 "SPI4_CS") (pintype "passive") (tstamp 5126d73c-4415-4dec-a620-fee6ecb8d8a1))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Caravel_Board:QFN-16-1EP_4x4mm_P0.65mm_EP2.5x2.5mm" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:QFN-16-1EP_4x4mm_P0.65mm_EP2.5x2.5mm" (layer "F.Cu")
     (tedit 5DC5F6A3) (tstamp c6f20a58-ca68-418e-95fc-389d6e0a5f89)
     (at 118.11 54.7624 90)
     (descr "QFN, 16 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=266), generated with kicad-footprint-generator ipc_noLead_generator.py")
@@ -5821,14 +5821,14 @@
     (pad "16" smd roundrect (at -0.975 -1.9375 90) (size 0.3 0.825) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 196 "Net-(R33-Pad2)") (pinfunction "HVC/A0") (pintype "input") (tstamp 391177f3-a86c-46a7-8360-c985599b2b29))
     (pad "17" smd rect (at 0 0 90) (size 2.5 2.5) (layers "F.Cu" "F.Mask") (tstamp 94402c1b-2ae1-4a0b-ad80-20c0659725ef))
-    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-16-1EP_4x4mm_P0.65mm_EP2.5x2.5mm.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/QFN-16-1EP_4x4mm_P0.65mm_EP2.5x2.5mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Caravel_Board:SOT-353F" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:SOT-353F" (layer "F.Cu")
     (tedit 5A02FF57) (tstamp cbc2dd2b-6b9d-48ce-aef0-bfc76b1459a4)
     (at 125.5776 26.9748 -90)
     (descr "SOT-353, SC-70-5")
@@ -5870,14 +5870,14 @@
       (net 3 "V1.8") (pinfunction "VOUT") (pintype "power_out") (tstamp 754ab48b-c1f7-41ce-ae86-d71df6fae46e))
     (pad "5" smd rect (at 0.95 -0.65 270) (size 0.8 0.45) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+5V") (pinfunction "VIN") (pintype "power_in") (tstamp 21742784-3d1e-4450-a68c-fb8b7874dd11))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-353F.STEP"
+    (model "${KIPRJMOD}/lib/3d-models/SOT-353F.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ce45f118-9ef7-46aa-aaf8-217e6944ad88)
     (at 137.9728 37.4904)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -5912,14 +5912,14 @@
       (net 1 "GND") (pintype "passive") (tstamp ba5741e4-912b-4177-9d0d-699adb916d6f))
     (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 13 "FTDI_V3.3") (pintype "passive") (tstamp d1320508-fd39-488a-98c3-30bb8ed468e0))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d8848a9b-c5c5-4aa5-ae5b-17a58dd7f7a0)
     (at 119.7864 59.8424 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -5954,14 +5954,14 @@
       (net 184 "NU_5V") (pintype "passive") (tstamp 0c551b28-b6f5-4b7e-86d9-8443a2dbc31c))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 30 "I2C4_SCL") (pintype "passive") (tstamp 922775e2-45c8-4010-ac51-c0235a652ce6))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp dcc20dee-49c4-4782-9765-9400b1179af0)
     (at 150.7236 45.7708 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -5996,14 +5996,14 @@
       (net 1 "GND") (pintype "passive") (tstamp 6c19e39a-cdd6-4ba2-8ea3-8b72a93346cd))
     (pad "2" smd roundrect (at 0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "Net-(C1-Pad2)") (pintype "passive") (tstamp 4e749045-893b-4147-aea1-86284b2deeff))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp de1fab93-41ab-4b5d-94d3-1ddc3f670fdb)
     (at 126.3396 30.6832 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -6038,14 +6038,14 @@
       (net 47 "EN_V3.3") (pintype "passive") (tstamp d2738277-d84e-4c81-8eaf-7dfeaa468196))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 4 "+5V") (pintype "passive") (tstamp 03c9e29b-00eb-41d8-aa5a-8e29b71e6f52))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp e0e2fa6b-8e36-4b00-96df-cb5cc77f2c97)
     (at 155.707 89.2556 -90)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
@@ -6085,14 +6085,14 @@
       (net 174 "vccd") (pinfunction "Pin_1") (pintype "passive") (tstamp 4e0015cf-3cbf-49f5-a621-f9458d846e6e))
     (pad "2" thru_hole oval (at 0 2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 174 "vccd") (pinfunction "Pin_2") (pintype "passive") (tstamp 72695bbb-f23c-4397-b281-81a4d97492b5))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/PinHeader_1x02_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Caravel_Board:10-pin_MLF_P0.5" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:10-pin_MLF_P0.5" (layer "F.Cu")
     (tedit 5EA4BECA) (tstamp e19e6259-7dfb-46bc-a9c2-888c20e74118)
     (at 128.8796 48.1584 -90)
     (descr "10-Lead Plastic Dual Flat, No Lead Package (MF) - 3x3x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)")
@@ -6149,14 +6149,14 @@
     (pad "10" smd rect (at 1.36 -1 270) (size 0.48 0.25) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 12 "VOUT1") (pinfunction "VOUT1") (pintype "power_out") (tstamp f9552bae-c86e-45d4-8197-14207d0cf39c))
     (pad "11" smd rect (at 0 0 270) (size 1.6 2.5) (layers "F.Cu" "F.Mask") (tstamp 2b42566d-ef1c-48f4-846d-fc6577b3f9b1))
-    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp e66aa5c2-e48c-4a1f-93a7-2eefe2d120cc)
     (at 113.6904 43.9878)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
@@ -6196,14 +6196,14 @@
       (net 10 "vdda") (pinfunction "Pin_1") (pintype "passive") (tstamp 74ed334d-6e96-4702-b07a-d354d96e0297))
     (pad "2" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 10 "vdda") (pinfunction "Pin_2") (pintype "passive") (tstamp cd7cdd22-6a4d-4120-b60e-83cc9fee6b31))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/PinHeader_1x02_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp eadf6df0-ad76-4033-a120-7041e85ea629)
     (at 124.2568 38.4556 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -6238,14 +6238,14 @@
       (net 1 "GND") (pintype "passive") (tstamp 179df218-b1d4-4018-9139-5b656ae80d66))
     (pad "2" smd roundrect (at 0.95 0 90) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "+5V") (pintype "passive") (tstamp f8668208-c05e-4a2f-b5a7-7a793f2a60c5))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ec4df74e-165b-491a-81a5-7f9efb91271f)
     (at 158.6992 85.9536)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -6280,14 +6280,14 @@
       (net 24 "Caravel_SCK") (pintype "passive") (tstamp 5ca3ae6a-dd0e-43be-bc72-c26c4b4fa67f))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 102 "SPI4_SCK") (pintype "passive") (tstamp ea55f1d2-54af-4b3e-b1d0-dece26384fe3))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Caravel_Board:ef_logo" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:ef_logo" (layer "F.Cu")
     (tedit 0) (tstamp f173d126-d5b8-4694-b83e-5507241be1a9)
     (at 113.792 91.6432)
     (property "Sheetfile" "caravel_Nucleo.kicad_sch")
@@ -7020,7 +7020,7 @@
       ) (layer "F.SilkS") (width 0.01) (fill solid) (tstamp e325043e-86d2-416e-805c-8626799969e7))
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp f1b99dd9-7932-4ca7-b135-93a39be6b164)
     (at 113.7054 38.5064 90)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
@@ -7062,14 +7062,14 @@
       (net 10 "vdda") (pinfunction "Pin_2") (pintype "passive") (tstamp 13f7caed-57d8-465c-ae36-5a1ff9f8dbc6))
     (pad "3" thru_hole oval (at 0 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 15 "VOUT2") (pinfunction "Pin_3") (pintype "passive") (tstamp 4d8a8abe-e564-47db-a055-e9d20da5b7f2))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/PinHeader_1x03_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "Caravel_Board:SOT-353F" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:SOT-353F" (layer "F.Cu")
     (tedit 5A02FF57) (tstamp f25910e7-95b7-4d7c-a6b6-12d9d81ee6b7)
     (at 125.222 34.6456 -90)
     (descr "SOT-353, SC-70-5")
@@ -7111,14 +7111,14 @@
       (net 2 "V3.3") (pinfunction "VOUT") (pintype "power_out") (tstamp 57dc82a9-119d-4d35-bb9f-4d862c1336c2))
     (pad "5" smd rect (at 0.95 -0.65 270) (size 0.8 0.45) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+5V") (pinfunction "VIN") (pintype "power_in") (tstamp f2b66638-031c-468e-834d-aa2e360bd4f0))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-353F.STEP"
+    (model "${KIPRJMOD}/lib/3d-models/SOT-353F.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (footprint "strive_foot_prints:CSTNE12M0GH5L000R0" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:CSTNE12M0GH5L000R0" (layer "F.Cu")
     (tedit 0) (tstamp f91cbd33-6fc4-4dac-9c83-593d611c6f9a)
     (at 152.1714 29.4386)
     (descr "CSTNE12M0GH5L000R0-2")
@@ -7161,7 +7161,7 @@
       (net 54 "Net-(U1-Pad2)") (pinfunction "3") (pintype "passive") (tstamp 49eb5934-5281-4a19-8786-23993d87daef))
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
+  (footprint "caravel_Nucleo-footprints:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp faf6155c-819c-4327-a59e-bb61b165d00e)
     (at 121.158 27.5844 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -7196,7 +7196,7 @@
       (net 1 "GND") (pintype "passive") (tstamp 0e9d3534-1925-41ee-b25c-22b7854339e8))
     (pad "2" smd roundrect (at 0.95 0 90) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "V1.8") (pintype "passive") (tstamp 30dfeeaa-06e5-4d7a-8ba1-467dce9de65e))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/lib/3d-models/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9028,7 +9028,7 @@
   (segment (start 115.0112 58.8772) (end 116.1725 57.7159) (width 0.254) (layer "F.Cu") (net 196) (tstamp 7280253a-3b60-493e-bdf0-b473dfdc98dc))
   (segment (start 116.1725 57.7159) (end 116.1725 55.7374) (width 0.254) (layer "F.Cu") (net 196) (tstamp e453f16c-c711-4607-86f0-c826d43b91c3))
 
-  (zone (net 1) (net_name "GND") (layers F&B.Cu) (tstamp cdb34ca5-ef73-45f3-b0ba-efb50b47114f) (hatch edge 0.508)
+  (zone (net 1) (net_name "GND") (layer "F&B.Cu") (tstamp cdb34ca5-ef73-45f3-b0ba-efb50b47114f) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254) (filled_areas_thickness no)
     (fill yes (thermal_gap 0.508) (thermal_bridge_width 0.508))

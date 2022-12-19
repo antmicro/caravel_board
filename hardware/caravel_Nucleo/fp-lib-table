@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "caravel_Nucleo-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/caravel_Nucleo-footprints")(options "")(descr ""))
+)
