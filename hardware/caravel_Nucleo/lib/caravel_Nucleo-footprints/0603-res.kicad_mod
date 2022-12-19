@@ -28,7 +28,7 @@
   (fp_line (start -0.8 0.4) (end 0.8 0.4) (layer "F.Fab") (width 0.12) (tstamp e26eac67-2c46-4a1b-a4e8-8d1c18cb43e9))
   (pad "1" smd roundrect (at -0.7 0) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 5015cb11-264a-4f5c-9313-126a634e01ee))
   (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp cbc2521d-1279-408e-9bcd-03bbb60218a1))
-  (model "${ANT3DMDL}/0603-res.step"
+  (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
     (offset (xyz -0.8 -0.4 0.45))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))

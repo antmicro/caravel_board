@@ -164,7 +164,7 @@
   (pad "142" thru_hole circle (at 31.705 51.555) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask) (tstamp c9f09088-3b21-4604-bdf9-84962414cca1))
   (pad "143" thru_hole circle (at 29.165 54.095) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask) (tstamp ec6d49eb-7851-4418-9ce5-9a0290a4047c))
   (pad "144" thru_hole circle (at 31.705 54.095) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask) (tstamp c886393b-f1a0-4330-ba63-7f888c9ef53f))
-  (model "${KISYS3DMOD}/Module.3dshapes/ST_Morpho_and_Zio_Connectors_144_STLink.wrl"
+  (model "${KIPRJMOD}/lib/3d-models/NUCLEO-F429ZI-connector.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

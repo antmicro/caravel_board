@@ -37,7 +37,7 @@
   (pad "6" smd rect (at 3.6 0.635 90) (size 0.65 1.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3554f60a-3e45-4cd9-ba0c-524ebb5f85a0))
   (pad "7" smd rect (at 3.6 -0.635 90) (size 0.65 1.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a57cae37-2a74-4e57-b31d-569bb0d0ef9c))
   (pad "8" smd rect (at 3.6 -1.905 90) (size 0.65 1.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6d5756cd-1223-4c7c-9d8b-886ca68eec90))
-  (model "${ANT3DMDL}/SOIC127P790X216-8N.stp"
+  (model "${KIPRJMOD}/lib/3d-models/SOIC127P790X216-8N.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
